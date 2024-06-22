@@ -21,6 +21,9 @@
         android:theme="@style/Theme.MUSICAA"
         tools:targetApi="31">
         <activity
+            android:name=".User_Details"
+            android:exported="false" />
+        <activity
             android:name=".Bandimu_Suda"
             android:exported="false" />
         <activity

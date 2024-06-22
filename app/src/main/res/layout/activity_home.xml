@@ -21,186 +21,7 @@
         app:layout_constraintVertical_bias="0.005"
         app:srcCompat="@drawable/musicaa" />
 
-    <Button
-        android:id="@+id/Track01"
-        android:layout_width="410dp"
-        android:layout_height="69dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:drawableStart="@drawable/bandimu"
-        android:padding="20dp"
-        android:drawablePadding="-120dp"
-        android:text="Bandimu Sudaa"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247" />
 
-
-    <Button
-        android:id="@+id/Track02"
-        android:layout_width="410dp"
-        android:layout_height="69dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:drawableStart="@drawable/music01"
-        android:drawablePadding="-120dp"
-        android:padding="20dp"
-        android:text="Track 02"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365" />
-
-    <Button
-        android:id="@+id/Track03"
-        android:layout_width="410dp"
-        android:layout_height="69dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:drawableStart="@drawable/music01"
-        android:drawablePadding="-120dp"
-        android:padding="20dp"
-        android:text="Track 03"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481" />
-
-    <Button
-        android:id="@+id/Track04"
-        android:layout_width="410dp"
-        android:layout_height="69dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:drawableStart="@drawable/music01"
-        android:padding="20dp"
-        android:drawablePadding="-120dp"
-        android:text="Track 04"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.601" />
-
-    <Button
-        android:id="@+id/Track05"
-        android:layout_width="410dp"
-        android:layout_height="69dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:drawableStart="@drawable/music01"
-        android:padding="20dp"
-        android:drawablePadding="-120dp"
-        android:text="Track 05"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.723" />
-
-    <Button
-        android:id="@+id/Track06"
-        android:layout_width="410dp"
-        android:layout_height="69dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:drawableStart="@drawable/music01"
-        android:padding="20dp"
-        android:drawablePadding="-120dp"
-        android:text="Track 06"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.841" />
-
-    <Button
-        android:id="@+id/singbtn1"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:text="Sing"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
-        app:layout_constraintStart_toStartOf="@+id/Track03"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.252" />
-
-    <Button
-        android:id="@+id/singbtn2"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:text="Sing"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
-        app:layout_constraintStart_toStartOf="@+id/Track03"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368" />
-
-    <Button
-        android:id="@+id/singbtn3"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:text="Sing"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
-        app:layout_constraintStart_toStartOf="@+id/Track03"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.486" />
-
-    <Button
-        android:id="@+id/singingbtn4"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:text="sing"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
-        app:layout_constraintStart_toStartOf="@+id/Track03"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.599" />
-
-    <Button
-        android:id="@+id/singinbtn5"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:text="sing"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
-        app:layout_constraintStart_toStartOf="@+id/Track03"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.716" />
-
-    <Button
-        android:id="@+id/singingbtn6"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:text="sing"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
-        app:layout_constraintStart_toStartOf="@+id/Track03"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.831" />
 
 
     <ImageButton
@@ -344,6 +165,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:background="#FFFFFF"
@@ -356,5 +178,215 @@
         android:iconifiedByDefault="false"
         app:queryHint="Serach Songs"/>
 
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612"
+        app:layout_constraintStart_toEndOf="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/Track01"
+                    android:layout_width="0dp"
+                    android:layout_height="69dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="#696767"
+                    android:drawableStart="@drawable/bandimu"
+                    android:drawablePadding="8dp"
+                    android:gravity="end|center_vertical"
+                    android:padding="20dp"
+                    android:text="Bandimu Sudaa"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toStartOf="@+id/singbtn1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/singbtn1"
+                    android:layout_width="80dp"
+                    android:layout_height="69dp"
+                    android:text="Sing"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/Track01"
+                    app:layout_constraintTop_toTopOf="@id/Track01" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/Track02"
+                    android:layout_width="0dp"
+                    android:layout_height="69dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="#696767"
+                    android:drawableStart="@drawable/galana_ganga01"
+                    android:drawablePadding="8dp"
+                    android:gravity="end|center_vertical"
+                    android:padding="20dp"
+                    android:text="Galana Ganga"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toStartOf="@+id/singbtn2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/singbtn2"
+                    android:layout_width="80dp"
+                    android:layout_height="69dp"
+                    android:text="Sing"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/Track02"
+                    app:layout_constraintTop_toTopOf="@id/Track02" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/Track03"
+                    android:layout_width="0dp"
+                    android:layout_height="69dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="#696767"
+                    android:drawableStart="@drawable/ale01"
+                    android:drawablePadding="8dp"
+                    android:gravity="end|center_vertical"
+                    android:padding="20dp"
+                    android:text="Aaley"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toStartOf="@+id/singbtn3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/singbtn3"
+                    android:layout_width="80dp"
+                    android:layout_height="69dp"
+                    android:text="Sing"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/Track03"
+                    app:layout_constraintTop_toTopOf="@id/Track03" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/Track04"
+                    android:layout_width="0dp"
+                    android:layout_height="69dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="#696767"
+                    android:drawableStart="@drawable/malmitak01"
+                    android:drawablePadding="8dp"
+                    android:gravity="end|center_vertical"
+                    android:padding="20dp"
+                    android:text="malmitak Thiyanna"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toStartOf="@+id/singbtn4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/singbtn4"
+                    android:layout_width="80dp"
+                    android:layout_height="69dp"
+                    android:text="Sing"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/Track04"
+                    app:layout_constraintTop_toTopOf="@id/Track04" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/Track05"
+                    android:layout_width="0dp"
+                    android:layout_height="69dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="#696767"
+                    android:drawableStart="@drawable/mulawe01"
+                    android:drawablePadding="8dp"
+                    android:gravity="end|center_vertical"
+                    android:padding="20dp"
+                    android:text="mulawe"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toStartOf="@+id/singbtn5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/singbtn5"
+                    android:layout_width="80dp"
+                    android:layout_height="69dp"
+                    android:text="Sing"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/Track05"
+                    app:layout_constraintTop_toTopOf="@id/Track05" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/Track06"
+                    android:layout_width="0dp"
+                    android:layout_height="69dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="#696767"
+                    android:drawableStart="@drawable/sepalikawo01"
+                    android:drawablePadding="8dp"
+                    android:gravity="end|center_vertical"
+                    android:padding="20dp"
+                    android:text="Sepalikawo"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintEnd_toStartOf="@+id/singbtn6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/singbtn6"
+                    android:layout_width="80dp"
+                    android:layout_height="69dp"
+                    android:text="Sing"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/Track06"
+                    app:layout_constraintTop_toTopOf="@id/Track06" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

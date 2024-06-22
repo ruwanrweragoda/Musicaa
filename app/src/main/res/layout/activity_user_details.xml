@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".Register">
+    tools:context=".User_Details">
 
     <ImageView
         android:id="@+id/imageView_profile"
-        android:layout_width="752dp"
-        android:layout_height="300dp"
+        android:layout_width="780dp"
+        android:layout_height="271dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,10 +22,10 @@
         app:srcCompat="@drawable/musicaa" />
 
     <TextView
-        android:id="@+id/textRegister"
+        android:id="@+id/user_details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="User Details"
         android:textColor="#FDFDFD"
         android:textSize="40dp"
         android:textStyle="bold"
@@ -37,11 +37,11 @@
 
 
     <EditText
-        android:id="@+id/regEmail"
+        android:id="@+id/user_Name"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:background="#D9D9D9"
-        android:hint="Enter Your Email"
+        android:hint="Name"
         android:inputType="textEmailAddress"
         android:paddingHorizontal="30dp"
         android:textColor="#000000"
@@ -53,10 +53,10 @@
         app:layout_constraintVertical_bias="0.452" />
 
     <TextView
-        android:id="@+id/textreguserename"
+        android:id="@+id/name"
         android:layout_width="272dp"
         android:layout_height="52dp"
-        android:text="Email"
+        android:text="Name"
         android:textColor="#FDFDFD"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -69,12 +69,12 @@
 
 
     <EditText
-        android:id="@+id/regPassword"
+        android:id="@+id/countryE"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:background="#D9D9D9"
-        android:hint="Password"
-        android:inputType="textPassword"
+        android:hint="Country"
+        android:inputType="text"
         android:paddingHorizontal="30dp"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,10 +85,10 @@
         app:layout_constraintVertical_bias="0.602" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/country"
         android:layout_width="272dp"
         android:layout_height="52dp"
-        android:text="Password"
+        android:text="Country"
         android:textColor="#FDFDFD"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -100,12 +100,12 @@
         app:layout_constraintVertical_bias="0.555" />
 
     <EditText
-        android:id="@+id/ComfirmPassword"
+        android:id="@+id/tele_Num"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:background="#D9D9D9"
-        android:hint="Comfirm Password"
-        android:inputType="textPassword"
+        android:hint="Telephone Number"
+        android:inputType="phone"
         android:paddingHorizontal="30dp"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -116,10 +116,10 @@
         app:layout_constraintVertical_bias="0.757" />
 
     <TextView
-        android:id="@+id/comfirmPassword"
+        android:id="@+id/tele"
         android:layout_width="272dp"
         android:layout_height="52dp"
-        android:text="Comfirm Password"
+        android:text="Telephone Number"
         android:textColor="#FDFDFD"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -131,12 +131,12 @@
         app:layout_constraintVertical_bias="0.714" />
 
     <Button
-        android:id="@+id/btnRegister"
+        android:id="@+id/btnContinue"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:background="#696767"
-        android:text="Register"
+        android:text="Continue"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -144,21 +144,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.883" />
-
-    <Button
-        android:id="@+id/btnGoTologin"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:text="Go to Login"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

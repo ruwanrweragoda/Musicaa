@@ -56,7 +56,7 @@ public class Register extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()) {
                                         // Registration success, navigate to login activity
-                                        startActivity(new Intent(Register.this, Login.class));
+                                        startActivity(new Intent(Register.this, User_Details.class));
                                         finish();
                                     } else {
                                         // Registration failed, show error message
