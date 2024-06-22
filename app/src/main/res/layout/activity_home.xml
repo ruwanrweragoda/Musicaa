@@ -344,7 +344,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.SearchView
-        android:layout_width="320dp"
+        android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
