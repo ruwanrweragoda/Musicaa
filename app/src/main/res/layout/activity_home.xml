@@ -21,9 +21,6 @@
         app:layout_constraintVertical_bias="0.005"
         app:srcCompat="@drawable/musicaa" />
 
-
-
-
     <ImageButton
         android:id="@+id/Abboutus"
         android:layout_width="50dp"
@@ -192,7 +189,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginHorizontal="10dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
