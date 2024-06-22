@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "585306709870",
+    "project_id": "musicaa-148f5",
+    "storage_bucket": "musicaa-148f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585306709870:android:f2acb1b1c7a68aaaa1eb7f",
+        "android_client_info": {
+          "package_name": "com.s22010360.musicaa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk2mXYvX2FQ_zI_mA7OO5YNu2rSGGBdg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

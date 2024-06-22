@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MUSICAA</string>
+    <string name="duet"><font size="60">Duet</font>\n
+        <font size="15">Start a duet recording for others to join</font></string>
+    <string name="gruop"><font size="60">gruop</font>\n
+    <font size="15">Start a group recording for others to join</font></string>
+    <string name="solo"><font size="60">solo</font>\n
+        <font size="15">Sing a song by yourself</font> </string>
+    <string name="join"><font size="60">join</font>\n
+        <font size="10">No recordings to join now, start one!</font></string>
+
+
+    <string name="my_api_key">AIzaSyCA9qK7WBGU39SVmGboqXkMrK9hi3DX6mg</string>
+
+
+</resources>

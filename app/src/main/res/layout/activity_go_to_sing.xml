@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".GoToSing">
+
+    <ImageView
+        android:id="@+id/imageView_profile"
+        android:layout_width="752dp"
+        android:layout_height="218dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/musicaa02" />
+
+    <Button
+        android:id="@+id/song01"
+        android:layout_width="410dp"
+        android:layout_height="69dp"
+        android:layout_centerHorizontal="true"
+        android:background="#696767"
+        android:drawableStart="@drawable/song01"
+        android:drawablePadding="-120dp"
+        android:padding="20dp"
+        android:text="Song 01"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <Button
+        android:id="@+id/duetbtn"
+        android:layout_width="410dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:background="#696767"
+        android:drawablePadding="-120dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/duet"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381" />
+
+
+    <Button
+        android:id="@+id/groupbtn"
+        android:layout_width="410dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:background="#696767"
+        android:drawablePadding="-120dp"
+        android:text="@string/gruop"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <Button
+        android:id="@+id/solobtn"
+        android:layout_width="410dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:background="#696767"
+        android:drawablePadding="-120dp"
+        android:text="@string/solo"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <Button
+        android:id="@+id/joinbtn"
+        android:layout_width="410dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:background="#696767"
+        android:drawablePadding="-120dp"
+        android:text="@string/join"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
