@@ -124,94 +124,85 @@
         app:layout_constraintTop_toTopOf="@+id/imageView_profile"
         app:layout_constraintVertical_bias="0.0" />
 
-    <Button
-        android:id="@+id/song01"
+
+    <ScrollView
         android:layout_width="410dp"
-        android:layout_height="69dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:drawableStart="@drawable/song01"
-        android:drawablePadding="-120dp"
-        android:padding="20dp"
-        android:text="Song 01"
-        android:textColor="#FFFFFF"
+        android:layout_height="380dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/followers"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.381" />
+        app:layout_constraintVertical_bias="0.743">
 
-    <Button
-        android:id="@+id/song02"
-        android:layout_width="410dp"
-        android:layout_height="69dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:drawableStart="@drawable/song01"
-        android:drawablePadding="-120dp"
-        android:padding="20dp"
-        android:text="Song 02"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/song03"
-        android:layout_width="410dp"
-        android:layout_height="69dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:drawableStart="@drawable/song01"
-        android:drawablePadding="-120dp"
-        android:padding="20dp"
-        android:text="song 03"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.62" />
+            <Button
+                android:id="@+id/song01"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginBottom="10dp"
+                android:background="#696767"
+                android:drawableStart="@drawable/malmitak01"
+                android:drawablePadding="-120dp"
+                android:padding="20dp"
+                android:text="malmitak thiyanna"
+                android:textColor="#FFFFFF" />
 
-    <Button
-        android:id="@+id/song04"
-        android:layout_width="410dp"
-        android:layout_height="69dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:drawableStart="@drawable/song01"
-        android:drawablePadding="-120dp"
-        android:padding="20dp"
-        android:text="song 04"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
+            <Button
+                android:id="@+id/song02"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginBottom="10dp"
+                android:background="#696767"
+                android:drawableStart="@drawable/bandimu"
+                android:drawablePadding="-120dp"
+                android:padding="20dp"
+                android:text="Bandimu sudaa"
+                android:textColor="#FFFFFF" />
 
-    <Button
-        android:id="@+id/song05"
-        android:layout_width="410dp"
-        android:layout_height="69dp"
-        android:layout_centerHorizontal="true"
-        android:background="#696767"
-        android:drawableStart="@drawable/song01"
-        android:drawablePadding="-120dp"
-        android:padding="20dp"
-        android:text="song 05"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8575" />
+            <Button
+                android:id="@+id/song03"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginBottom="10dp"
+                android:background="#696767"
+                android:drawableStart="@drawable/ale01"
+                android:drawablePadding="-120dp"
+                android:padding="20dp"
+                android:text="Aaley"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/song05"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:layout_marginBottom="10dp"
+                android:background="#696767"
+                android:drawableStart="@drawable/mulawe01"
+                android:drawablePadding="-120dp"
+                android:padding="20dp"
+                android:text="Mulawe"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/song04"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:background="#696767"
+                android:drawableStart="@drawable/sepalikawo01"
+                android:drawablePadding="-120dp"
+                android:padding="20dp"
+                android:text="Sepalikawo"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
 
     <ImageButton
         android:id="@+id/Explore"
@@ -305,6 +296,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.983"
         tools:ignore="MissingConstraints" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
