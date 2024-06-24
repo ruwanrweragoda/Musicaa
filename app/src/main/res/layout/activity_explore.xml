@@ -63,46 +63,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.421"
         app:srcCompat="@drawable/music02" />
-
-    <ImageButton
-        android:id="@+id/trending02"
-        android:layout_width="150dp"
-        android:layout_height="170dp"
-        android:contentDescription="Trending 02"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.843"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.421"
-        app:srcCompat="@drawable/music02" />
-
-    <ImageButton
-        android:id="@+id/trending03"
-        android:layout_width="150dp"
-        android:layout_height="170dp"
-        android:contentDescription="Trending 03"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.805"
-        app:srcCompat="@drawable/music02" />
-
-    <ImageButton
-        android:id="@+id/trending04"
-        android:layout_width="150dp"
-        android:layout_height="170dp"
-        android:contentDescription="Trending 04"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.805"
-        app:srcCompat="@drawable/music02" />
-
     <TextView
         android:id="@+id/texttrend01"
         android:layout_width="wrap_content"
@@ -119,6 +79,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.571" />
 
+
+    <ImageButton
+        android:id="@+id/trending02"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:contentDescription="Trending 02"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421"
+        app:srcCompat="@drawable/music02" />
     <TextView
         android:id="@+id/texttrend02"
         android:layout_width="wrap_content"
@@ -135,6 +108,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.57" />
 
+
+    <ImageButton
+        android:id="@+id/trending03"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:contentDescription="Trending 03"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805"
+        app:srcCompat="@drawable/music02" />
     <TextView
         android:id="@+id/texttrend03"
         android:layout_width="wrap_content"
@@ -151,6 +137,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.873" />
 
+
+    <ImageButton
+        android:id="@+id/trending04"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:contentDescription="Trending 04"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805"
+        app:srcCompat="@drawable/music02" />
     <TextView
         android:id="@+id/texttrend04"
         android:layout_width="wrap_content"
@@ -166,6 +165,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.873" />
+
+
 
     <ImageButton
         android:id="@+id/Explore"
